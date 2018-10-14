@@ -1,0 +1,127 @@
+.main {
+  width:400px;
+  height:100px;
+  margin:auto;
+
+}
+
+.main .bunny {
+  width: 500px;
+  height:100px;
+  margin-left:5%;
+}
+
+.main .bunny .head {
+  background-color: #e0c3a1;
+  width:100px;
+  height:100px;
+  margin-left:10px;
+  margin-top:-390px;
+  border-top-left-radius:100px;
+  border-bottom-left-radius:50px;
+  border-top-right-radius:70px;
+}
+
+.main .bunny .eye {
+  width:10px;
+  height:15px;
+  position:absolute;
+  left:-25px;
+  top:-200px;
+  background-color:brown;
+  border-radius:30px;
+}
+
+
+.main .bunny .body {
+  background-color: #e0c3a1;
+  width:230px;
+  position:absolute;
+  height:130px;
+  bottom:5%;
+  left:42%;
+  border-top-left-radius:500px;
+  border-top-right-radius:500px;
+  border-bottom-left-radius:200px;
+  border-bottom-right-radius:200px;
+}
+
+.main .bunny .ear {
+  background-color: #ffc9e9;
+  position:absolute;
+  width:20px;
+  height:66px;
+  bottom:165px;
+  left:15px;
+  z-index:-1;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  border-bottom-left-radius:30px;
+}
+
+.main .bunny .ear2 {
+  background-color: #ffc9e9;
+  width:20px;
+  height:66px;
+  bottom:150px;
+  position:absolute;
+  left:-20px;
+  z-index:-1;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  border-bottom-left-radius:30px;
+}
+
+.main .bunny .earinner {
+  background-color: #e0c3a1;
+  width:30px;
+  height:50px;
+  position:absolute;
+  left:40%;
+  top:35%;
+  -ms-transform: rotate(20deg);
+  -webkit-transform: rotate(20deg);
+  transform: rotate(10deg);
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  border-bottom-left-radius:0px;
+  border-bottom-right-radius:30px;
+}
+
+.main .bunny .rearinner {
+  background-color: #e0c3a1;
+  width:30px;
+  height:50px;
+  left:50px;
+  bottom:370px;
+  position:absolute;
+  left:43%;
+  top:35%;
+  -ms-transform: rotate(-20deg);
+  -webkit-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  border-bottom-left-radius:0px;
+  border-bottom-right-radius:30px;
+}
+
+.main .bunny .tail {
+  background-color: #f2f1bc;
+  width:50px;
+  height:50px;
+  bottom:10px;
+  left:210px;
+  position:absolute;
+  border-radius:50px;
+}
+
+.main .bunny .nose {
+  width:10px;
+  height:17px;
+  position:absolute;
+  left:-55px;
+  top:-190px;
+  background-color: #e8b0c4;
+  border-radius: 20px 10px 10px 10px;
+}

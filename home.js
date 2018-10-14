@@ -6,7 +6,7 @@ function clock() {
 
 	min = rotate(min);
 	sec = rotate(sec);
-	document.getElementById("datetime").innerHTML =
+	document.getElementById("dt").innerHTML =
 	hr + ":" + min + ":" + sec;
 	setTimeout(clock, 500);
 }
@@ -25,7 +25,7 @@ function monthToString() {
 	 "March", "April", "May", "June", "July", "August", "September",
 	 "October", "November", "December"];
 	 var m = time.getMonth();
-	 return months[m]
+	 return months[m];
 
 }
 
@@ -40,8 +40,22 @@ function dayString() {
 	return d;
 }
 
+function AMPM() {
+	var h = time.getHours();
+	if (h >= 0 && h <= 11) {
+		return "AM";
+	}
+	else {
+		return "PM";
+	}
+}
+
 var txt = document.getElementById("datecol");
-var info = document.createTextNode(weekdayString() + ", " + monthToString() + " " + dayString());
+var dt = document.getElementById("ampm");
+var info = document.createTextNode(weekdayString() + ", " + monthToString() + " " + dayString() + ",");
+var timeOfDay = document.createTextNode(AMPM());
+
+dt.appendChild(timeOfDay);
 txt.appendChild(info);
 
 clock()
