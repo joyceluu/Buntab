@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre');
+body {
+	font-family: 'Averia Serif Libre', cursive;
+	font-size: 40px;
+	color: #7089b2;
+}
+
+div {
+	width:500px;
+	height:500px;
+	margin:auto;
+	text-align: center;
+}
+
+#datetime {
+	font-size:100px;
+}
